@@ -1,0 +1,126 @@
+body {
+  font-family: Arial;
+  margin: 20px;
+  background-color: lightgray;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  border: 3px solid blue;
+  background-color: lightyellow;
+  color: darkblue;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.controls {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px solid navy;
+  background-color: lightblue;
+  border-radius: 5px;
+}
+
+#searchInput {
+  padding: 8px;
+  width: 200px;
+  border: 2px solid darkblue;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+#categoryFilter {
+  padding: 8px;
+  border: 2px solid darkblue;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 14px;
+}
+
+button {
+  padding: 8px 15px;
+  border: 2px solid darkgreen;
+  background-color: lightgreen;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: green;
+  color: white;
+}
+
+.summary-card {
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 2px solid purple;
+  background-color: lavender;
+  border-radius: 8px;
+  box-shadow: 3px 3px 5px gray;
+}
+
+.summary-card h3 {
+  margin: 0;
+  font-size: 16px;
+  color: purple;
+}
+
+.summary-card p {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+  color: darkviolet;
+}
+
+#noResultsMessage {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 3px solid red;
+  text-align: center;
+  font-weight: bold;
+  background-color: lightyellow;
+  color: red;
+  border-radius: 10px;
+}
+
+.product-card {
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 2px solid darkorange;
+  background-color: lemonchiffon;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px gray;
+}
+
+.product-card h3 {
+  margin-top: 0;
+  border-bottom: 2px solid orange;
+  padding-bottom: 8px;
+  color: darkorange;
+}
+
+.product-card p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.status-in-stock {
+  font-weight: bold;
+  color: green;
+  font-size: 16px;
+}
+
+.status-low-stock {
+  font-weight: bold;
+  color: orange;
+  font-size: 16px;
+}
+
+.status-out-of-stock {
+  font-weight: bold;
+  color: red;
+  font-size: 16px;
+}
+
